@@ -58,7 +58,7 @@ attr_accessor :name, :breed, :id
     name = row[1]
     breed = [1]
     self.new(id: id, name: name, breed: breed)
-  end  
+  end
 
   def self.find_by_id(id)
     sql = <<-SQL
@@ -72,7 +72,7 @@ attr_accessor :name, :breed, :id
       self.new_from_db(row)
     end.first
   end
-  
+
   def self.find
 
 end
