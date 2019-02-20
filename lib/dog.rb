@@ -73,7 +73,6 @@ attr_accessor :name, :breed, :id
     end.first
   end
 
-  def self.find
-  end
+  
 
 end
