@@ -51,6 +51,6 @@ attr_accessor :name, :breed, :id
     dog = Dog.new(name, breed)
     dog.save
     dog
-  end  
+  end
 
 end
