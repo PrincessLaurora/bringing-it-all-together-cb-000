@@ -82,6 +82,6 @@ attr_accessor :name, :breed, :id
       dog = self.create(name: name, breed: breed)
     end
     dog
-  end 
+  end
 
 end
