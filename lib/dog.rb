@@ -73,6 +73,6 @@ attr_accessor :name, :breed, :id
     end.first
   end
 
-  
+
 
 end
